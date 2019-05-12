@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "node ./bin/www",
     "dev": "node ./bin/www",
     "debug": "ndb npm run dev"
   },
@@ -18,8 +18,5 @@
     "mongoose": "5.4.2",
     "mongoose-paginate": "^5.0.3",
     "mongoose-unique-validator": "^2.0.1"
-  },
-  "devDependencies": {
-    "bcrypt": "^3.0.6"
   }
 }

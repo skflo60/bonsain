@@ -1,7 +1,7 @@
 module.exports = {
   mongo: {
-    uri: 'mongodb://localhost:27017/',
-    db: 'cartyyydb'
+    uri: 'mongodb+srv://admin:mouton@biosain-voja5.mongodb.net/',
+    db: 'biosain'
   },
   api: 'http://localhost:3000/api'
 };
